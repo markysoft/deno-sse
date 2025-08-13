@@ -18,8 +18,8 @@ Clicking the button will start the stream, and clicking the cancel button will
 cancel the stream.
 
 Clicking the button again will restart the stream, but clicking the cancel
-button again will not restart the stream, as the controller has already been
-used.
+button again will not stop  the stream, as the controller has already been
+used. It will continue to update the UI.
 
 Also, clicking the button repeatedly will not cancel the in progress stream, but
 will keep creating more. This can be seen by the time updating more frequently
