@@ -18,7 +18,7 @@ Clicking the button will start the stream, and clicking the cancel button will
 cancel the stream.
 
 Clicking the button again will restart the stream, but clicking the cancel
-button again will not restart the stream, as the the controller has already been
+button again will not restart the stream, as the controller has already been
 used.
 
 Also, clicking the button repeatedly will not cancel the in progress stream, but
