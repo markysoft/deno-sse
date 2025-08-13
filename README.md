@@ -23,7 +23,7 @@ used. It will continue to update the UI.
 
 Also, clicking the button repeatedly will not cancel the in progress stream, but
 will keep creating more. This can be seen by the time updating more frequently
-than every second.
+than every two seconds.
 
 ## Second set of buttons
 
