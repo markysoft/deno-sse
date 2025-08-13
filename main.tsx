@@ -1,11 +1,13 @@
 import { Hono } from 'hono'
+import { jsxRenderer } from 'hono/jsx-renderer'
 import { streamSSE } from 'hono/streaming'
 import { Layout } from "./Layout.tsx";
 
 const app = new Hono()
 
+app.use('*', jsxRenderer(({ children }) => <html>{children}</html>, { docType: true }))
 app.get('/', (c) => {
-  return c.html(<Layout />)
+  return c.render(<Layout />)
 })
 
 let id = 0

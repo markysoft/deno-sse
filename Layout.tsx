@@ -2,7 +2,7 @@ import type { FC } from "hono/jsx";
 
 export const Layout: FC = () => {
   return (
-    <html>
+    <>
       <head>
         <meta charset="utf-8" />
         <meta
@@ -86,6 +86,6 @@ export const Layout: FC = () => {
           </div>
         </section>
       </body>
-    </html>
+    </>
   );
 };
